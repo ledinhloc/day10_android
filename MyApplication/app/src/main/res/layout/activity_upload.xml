@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/main_upload"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+    <!-- Ảnh đại diện hoặc icon -->
+    <ImageView
+        android:id="@+id/imgAvatar"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_launcher_foreground"
+        android:background="@drawable/background_circle"
+        android:scaleType="fitCenter"
+        android:layout_marginBottom="32dp" />
+
+    <!-- Nút "CHỌN FILE" -->
+    <Button
+        android:id="@+id/btnChooseFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CHỌN FILE"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:padding="12dp" />
+
+    <!-- Nút "UPLOAD IMAGES" -->
+    <Button
+        android:id="@+id/btnUploadImages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UPLOAD IMAGES"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:padding="12dp" />
+
+</LinearLayout>
