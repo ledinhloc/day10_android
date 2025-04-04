@@ -18,7 +18,7 @@
         android:theme="@style/Theme.BT2_socket"
         tools:targetApi="31">
         <activity
-            android:name=".ControlActivity"
+            android:name=".BlueControl"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
